@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <link rel="shortcut icon" href="assets/jubair.jpg" type="image/x-icon" />
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="index.css" />
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" />
+   <title>Miraz</title>
+ </head>
+ <body>
+   <nav class="navbar">
+     <!-- LOGO -->
+        <div class="logo">
+            <img src="assets/jubair.jpg" alt="miraz"> 
+            <p class="logo_text"> Miraz</p> 
+        </div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li class="services">
+           <a href="#">Projects</a>
+           <!-- DROPDOWN MENU -->
+           <ul class="dropdown">
+             <li><a href="#project1">Google Search Engine </a></li>
+             <li><a href="#project2">E commerce app</a></li>
+             <li><a href="#project3">Chat Application</a></li>
+             <li><a href="#project4">Video calling app</a></li>
+             <li><a href="#project5">Advisory app</a></li>
+             <li><a href="#project6">Landing page</a></li>
+           </ul>
+         </li>
+         <li><a href="#footer">Contact</a></li>
+       </div>
+     </ul>
+   </nav>
+   <main>
+     <div class="main">
+        <div id="home" class="header">
+          <div class="header_intro">
+            <div>
+               <img class="header_photo" src="assets/jubair.jpg" height="200px" width="200px" alt="miraz">
+            </div>
+            <div class="text">
+              <h2>Hi, I'm Miraz</h2>
+              <h5>I'm a full stack Web & E-commerce developer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="main_menu">
+
+          <div id="about" class="container">
+            <div class="col">
+              <h2 class="titulo">Front end</h2>
+              <ul class="skill">
+                <li><span class="blueline html"></span><em>HTML5</em></li>
+                <li><span class="blueline css"></span><em>CSS3</em></li>
+                <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+                <li><span class="blueline jquery"></span><em>React js</em></li>
+              </ul>
+            </div>
+              <div class="col">
+              <h2 class="plataformas titulo">Backend</h2>
+              <ul class="skill">
+                <li><span class="greenline wordpress"></span><em>Node js</em></li>
+                <li><span class="greenline prestashop"></span><em>Express js</em></li>
+                <li><span class="greenline joomla"></span><em>Mongo DB</em></li>
+              </ul>
+            </div>
+              <div class="col">
+              <h2 class="programas titulo">Ui/Ux</h2>
+              <ul class="skill">
+                <li><span class="redline dreamweaver"></span><em>Illustrator</em></li>
+                <li><span class="redline illustrator"></span><em>Figma</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- cards -->
+        <h2 id="projects">Projects</h2>
+        <div class="cards">
+
+          <a rel="stylesheet" id="project1" href="https://miraz-search-engine.netlify.app/">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">    
+                    <img src="assets/searchEngine.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Search Engine Clone</h1>
+                  <p> Created with :: React and material-ui</p><br />
+                  <p>This is a simple app like google. you can search anithing whatever you want</p>
+                  <br />
+                  <br />
+                  <p>Click this image to see this project</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a rel="stylesheet" id="project2" href="https://miraz-shop.herokuapp.com">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">    
+                    <img src="assets/e-commerce.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Full e-commece app</h1>
+                  <p> Created with :: MERN stack</p><br />
+                  <p>An e-shop that helps you to buy and sell your product </p>
+                  <br />
+                  <br />
+                  <p>Click this image to see this project</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a rel="stylesheet" id="project3" href="https://chat-engine-for-portfolio.netlify.app">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">    
+                    <img src="assets/chatApp.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Chat Application</h1>
+                  <p> Created with :: React and node js</p><br />
+                  <p>This is a simple app that helps you to chat your friend. you just need to send the room number </p>
+                  <br />
+                  <br />
+                  <p>Click this image to see this project</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a rel="stylesheet" id="project4" href="https://miraz-calling-app-for-portfolio.netlify.app">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">    
+                    <img src="assets/videoCallingApp.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Video calling app</h1>
+                  <p> Created with :: React and node js</p><br />
+                  <p>This is a simple app like zoom. you can call anyone by sharing your id</p>
+                  <br />
+                  <br />
+                  <p>Click this image to see this project</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a rel="stylesheet" id="project5" href="https://travel-advisor.netlify.app">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">    
+                    <img src="assets/travel.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Travel Advisory app</h1>
+                  <p> Created with :: React and material-ui</p><br />
+                  <p> If you need to find any hotel around your location you can find by this web site.
+                     you have to give the location access to find where are you.
+                  </p>
+                  <br />
+                  <br />
+                  <p>Click this image to see this live project</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a rel="stylesheet" id="project6" href="https://landing-page-for-portfolio.netlify.app/#">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">    
+                    <img src="assets/landingPage.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1> Landing page </h1>
+                  <p> Created with :: Html & css </p><br />
+                  <p>This is a landing page of a furniture company</p>
+                  <br />
+                  <br />
+                  <p>Click this image to see this live project</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+   <!-- footer -->
+
+   <footer id="footer" class="footer-distributed">
+
+    <div class="footer-left">
+        <img src="assets/miraz.jpg" style="border-radius: 50%;">
+      <h3>About<span>Miraz</span></h3>
+
+      <p class="footer-links">
+        <a href="#projects">Home</a>
+        |
+        <a href="#">Blog</a>
+        |
+        <a href="#">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">© 2019 </p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+          <p><span>Bor digir par,  Hathazari</span>
+          Chattogram, Bangladesh</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>01990151895</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@eduonix.com">mirazOfficial2021@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the company</span>
+        We create landing page, personal portfolio, e-commerce</p>
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/mdmiraz.mdmiraz.77920526"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/1_m_i_r_a_z_1/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/miraz-uddin-353434217/"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+      </div>
+   </main>
+
+
+   
+ </body>
+</html>
